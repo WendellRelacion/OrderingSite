@@ -7,3 +7,7 @@ Possible Features:
 * separate ui for customers and admin
 * login security
 
+Extensions/Dependencies:
+* Live Server extension on vscode
+
+As of right now, all pushes will be practice
