@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baseline website</title>
+    </head>
+    <body>
+        <!-- audio has different attributes with
+        controls: that show audio controls
+        autoplay: autoplays the audio
+        muted: user must unmute to be able to hear
+        loop: loops the audio-->
+        <p>Holy Moly</p>
+        <audio controls autoplay muted loop>
+            <source src="sound/sound1.mp3" type="audio/mpeg">
+            <!-- the following is a fallback in which will play if the one above cannot be played-->
+            <source src="sound/sound.wav" type="audio/wav">
+        </audio>
+        <br>
+        <pre>anita max wynn</pre>
+        <audio controls autoplay muted loop>
+            <source src="sound/sound2.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+</html>
