@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bUTTONS</title>
+    </head>
+    <body>
+        
+        <a href="buttons2.html" target="_blank">
+            <button style="font-size: 25px; background-color: aqua; color:black; border-radius: 25px;">Click me</button>
+        </a>
+
+        <br>
+        <!-- THIS WILL BE IMPORTANT WHEN MAKING THE WEBSITE-->
+        <button onclick="doSomething()" style="font-size: 25px; background-color:bisque; color:black; border-radius: 25px;">Click me</button>
+
+        <p id="greeting">Hello</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "GoodBye"
+            }
+        </script>
+    </body>
+</html>
